@@ -1,0 +1,17 @@
+<%--Simple Hello World JSP example--%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
+<html>
+<head>
+	<meta htpp-equiv="Content-Type" content="text/html";charset="utf-8">>
+	<title>我的第一個JSP</title>
+</head>
+<body>
+	<h1><%="Hello World! This's a JSP, it is "+ new java.util.Date()%></h1>
+</body>
+</html>
+
+<%--...--%><%--用於表示註解--%>
+<%--<%@...%>用於表示頁面指令--%>
+<%--<%=...%>用於表達Java用算式--%>
